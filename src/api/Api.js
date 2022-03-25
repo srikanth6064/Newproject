@@ -10,7 +10,9 @@ export function getCampaignAnalytics(data) {
         return resolve(response);
       })
       .catch((err) => {
-        return reject(err);
+        return reject(err);        
       });   
+
+      
   });
 }

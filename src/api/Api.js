@@ -11,6 +11,6 @@ export function getCampaignAnalytics(data) {
       })
       .catch((err) => {
         return reject(err);
-      });
+      });   
   });
 }
